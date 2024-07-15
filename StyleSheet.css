@@ -1,0 +1,146 @@
+﻿body {
+    background: #CCFFCC;
+    font-family: Verdana;
+}
+
+/* Header section */
+#head {
+    width: 1000px;
+    height: 80px;
+    border: solid 0px green;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+}
+
+/* Login section */
+#login {
+    height: 180px;
+    width: 350px;
+    border: solid 0px green;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* Image section */
+#img {
+    height: 320px;
+    width: 700px;
+    border: solid 0px green;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* Table styles */
+.tbl {
+    width: 100%;
+    border: solid 0px green;
+    background: #CCFFCC;
+}
+
+.tblhead {
+    background: green;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+    background: linear-gradient(Green, #00C600);
+}
+
+.lbl {
+    text-align: right;
+    color: Green;
+}
+
+/* Input styles */
+.txt {
+    height: 20px;
+    width: 150px;
+    border: solid 0px green;
+    background: #FFE8D9;
+}
+
+    .txt:hover {
+        border: solid 0px #ff6600;
+    }
+
+/* Button styles */
+.btn {
+    background: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    border: solid 2px green;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    background: linear-gradient(#ff6600, #FF8635);
+}
+
+    .btn:hover {
+        background: green;
+        color: #fff;
+        font-weight: bold;
+        border: solid 2px #ff6600;
+        height: 30px;
+        background: linear-gradient(Green, #00C600);
+    }
+
+/* Main container */
+#main {
+    width: 1000px;
+    height: 555px;
+    border: solid 0px green;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* Menu styles */
+#menu {
+    width: 230px;
+    height: 550px;
+    border: solid 0px red;
+    float: left;
+    background: #fff;
+}
+
+#detail {
+    width: 760px;
+    height: 550px;
+    border: solid 0px red;
+    float: left;
+    margin-left: 5px;
+    background: #fff;
+}
+
+.btnmenu {
+    background: #fff;
+    color: lightgray;
+    font-weight: bold;
+    width: 100%;
+    height: 39px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color .6s ease, color .6s ease;
+}
+
+    .btnmenu.selected {
+        background: lightblue;
+        color: #fff;
+    }
+
+    .btnmenu:hover {
+        background: #ff6600;
+        color: #fff;
+    }
+
+.lnk {
+    color: Green;
+    font-weight: bold;
+}
+
+    .lnk:hover {
+        color: #ff6600;
+        font-weight: bold;
+    }
