@@ -1,31 +1,62 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style type="text/css">
-        .container {
+        #detail {
+            width: auto;
+            height: auto;
+            border: solid 0px red;
+            float: left;
+            margin-left: 5px;
+            background: #fff;
+            flex: auto;
+        }
+
+        .carousel-container {
             display: flex;
             justify-content: center;
-            height: 100vh;
-            background: linear-gradient(to bottom, #80ff80, #ccffcc); /* 背景渐变 */
+            align-items: center;
+            height: 100%;
+            width: 100%;
         }
-        .image-container {
-            text-align: center;
-            position: relative;
-            transition: transform 0.3s ease-in-out; /* 添加过渡效果 */
-        }
-        .image-container img {
-            width: 70%; /* 图片变为原来的1/3大小 */
-            height: auto;
-        }
-        .image-container:hover {
-            transform: translateY(-15px); /* 鼠标悬停时图片上浮 */
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div class="container">
-        <div class="image-container">
-            <asp:Image ID="Image2" runat="server" ImageUrl="~/img/book_of_ideas.png" /> <!-- 修改为你上传的图片路径 -->
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/admin-carousel/1.jpeg" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/admin-carousel/2.jpeg" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/admin-carousel/3.jpeg" class="d-block w-100" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/admin-carousel/4.jpeg" class="d-block w-100" alt="Fourth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </asp:Content>

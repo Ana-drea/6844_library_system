@@ -9,13 +9,17 @@
         }
     .style2
     {
-        text-align: right;
+        text-align: end;
         color: Green;
         height: 20px;
     }
     .style3
     {
         height: 20px;
+    }
+    .txtExtend{
+        height:30px;
+        width:225px;
     }
     </style>
 </asp:Content>
@@ -121,7 +125,7 @@
                             Book Photo :  
                         </td>
                         <td>
-                            <asp:FileUpload ID="FileUpload1" runat="server" CssClass="txt" />
+                            <asp:FileUpload ID="FileUpload1" runat="server" CssClass="txtExtend" />
                         </td>
                     </tr>
                     <tr>
