@@ -8,13 +8,13 @@
     }
         .style2
         {
-            text-align: right;
+            text-align: center;
             color: Green;
             width: 362px;
         }
         .style3
         {
-            text-align: right;
+            text-align: center;
             color: Green;
             width: 345px;
         }
