@@ -8,13 +8,13 @@
     }
         .style2
         {
-            text-align: right;
+            text-align: center;
             color: Green;
             width: 362px;
         }
         .style3
         {
-            text-align: right;
+            text-align: center;
             color: Green;
             width: 345px;
         }
@@ -71,6 +71,8 @@
                             <asp:Button ID="btnviewbranch" runat="server" CssClass="btn" Text="View" 
                             onclick="btnviewbranch_Click" />
                     </td>
+                    </tr>
+                <tr>
                     <td class="style2">
                         Select Publicaton :
                             <asp:DropDownList ID="drppublication" runat="server" CssClass="txt">

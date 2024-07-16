@@ -8,7 +8,7 @@
     }
         .style2
         {
-            width: 202px;
+            width: 250px;
         }
         .style3
         {
@@ -25,6 +25,10 @@
         text-align: right;
         color: Green;
         width: 249px;
+    }
+
+    .btn{
+        
     }
     </style>
 </asp:Content>
@@ -58,6 +62,7 @@
                                 onclick="btnseach_Click" Text="View" />
                     </td>
                 </tr>
+                <tr></tr>
             </table>
         </td>
     </tr>
