@@ -6,28 +6,30 @@
     <title>Digital Library Login</title>
     <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100vh;
-            background-color: #CCFFCC; /* 替换成你的背景颜色 */
-            padding: 0 10%;
-        }
+       .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1537202108838-e7072bad1927?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGxpYnJhcnklMjAxNjAwKjkwMHxlbnwwfHwwfHx8MA%3D%3D'); 
+    background-size: cover;
+    background-color: #252223; 
+    padding: 0 10%;
+}
 
         .left-panel {
             color: white;
             max-width: 50%;
         }
 
-        .left-panel h1 {
-            font-size: 4rem;
-            margin-bottom: 20px;
-        }
+            .left-panel h1 {
+                font-size: 4rem;
+                margin-bottom: 20px;
+            }
 
-        .left-panel p {
-            font-size: 1.2rem;
-        }
+            .left-panel p {
+                font-size: 1.2rem;
+            }
 
         .right-panel {
             background-color: rgba(255, 255, 255, 0.9);
@@ -37,32 +39,33 @@
             width: 100%;
         }
 
-        .right-panel h2 {
-            margin-bottom: 20px;
-        }
+            .right-panel h2 {
+                margin-bottom: 20px;
+            }
 
-        .right-panel input, .right-panel select, .right-panel button {
-            margin-bottom: 10px;
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+            .right-panel input, .right-panel select, .right-panel button {
+                margin-bottom: 10px;
+                width: 95%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
 
-        .right-panel button {
-            background-color: #00aaff;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
+            .right-panel button {
+                background-color: #00aaff;
+                color: white;
+                border: none;
+                cursor: pointer;
+                width: 50%;
+            }
 
-        .right-panel button:hover {
-            background-color: #0077cc;
-        }
+                .right-panel button:hover {
+                    background-color: #0077cc;
+                }
 
-        .right-panel .error {
-            color: red;
-        }
+            .right-panel .error {
+                color: red;
+            }
 
         .radio-buttons {
             display: flex;
@@ -71,12 +74,12 @@
         }
     </style>
 </head>
-<body>
+<body style="background-image: url('background-image.jpg'); background-size: cover;">
     <form id="form1" runat="server">
         <div class="container">
             <div class="left-panel">
                 <h1>DIGITAL LIBRARY</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...</p>
+                <p>When in doubt go to the library. – J.K. Rowling</p>
             </div>
             <div class="right-panel">
                 <h2>Login</h2>
