@@ -55,8 +55,10 @@
                             <asp:Button ID="Button11" runat="server" CssClass="btn" Text="View" 
                                 onclick="Button11_Click" />
                     </td>
-                    <td class="lbl">
+                    <td class="style3">
                             Student Name :
+                    </td>
+                    <td class="style2">
                             <asp:TextBox ID="txtsearch" runat="server" CssClass="txt"></asp:TextBox>
                             <asp:Button ID="btnseach" runat="server" CssClass="btn" 
                                 onclick="btnseach_Click" Text="View" />

@@ -11,24 +11,24 @@
     margin: 0 auto;
     text-align: left;
     background: #fff;
-    background-image: url(https://th.bing.com/th/id/OIP.706PemSi8x98iXoOiSnL-gEsBm?w=335&h=118&c=7&r=0&o=5&dpr=1.1&pid=1.7);
-    background-size: cover; /* Ensure the background image covers the entire div */
+   /** background-image: url(https://th.bing.com/th/id/OIP.706PemSi8x98iXoOiSnL-gEsBm?w=335&h=118&c=7&r=0&o=5&dpr=1.1&pid=1.7);
+    background-size: cover; **/
     display: flex;
     align-items: center;
-    padding-left: 0px; /* Remove any default padding */
+    padding-left: 0px; 
 }
 
 .header-icon {
-    width: 100px; /* Set the width of the icon */
-    height: 100px; /* Set the height of the icon */
-    margin: 0; /* Remove margins */
+    width: 100px; 
+    height: 100px; 
+    margin: 0; 
 }
 
 .header-label {
     color: #141418bd;
 }
 
-/* Login section */
+
 #login {
     height: 180px;
     width: 350px;
@@ -37,7 +37,7 @@
     margin-top: 0px;
 }
 
-/* Image section */
+
 #img {
     height: 320px;
     width: 700px;
@@ -46,7 +46,6 @@
     margin-top: 0px;
 }
 
-/* Table styles */
 .tbl {
     width: 100%;
     border: solid 0px green;
@@ -68,7 +67,7 @@
     color: Green;
 }
 
-/* Input styles */
+
 .txt {
     height: 20px;
     width: 150px;
@@ -80,16 +79,16 @@
         border: solid 0px #ff6600;
     }
 
-/* Button styles */
+
 .btn {
-    background: #ff6600;
-    color: #fff;
-    font-weight: bold;
-    border: solid 2px green;
-    height: 30px;
-    cursor: pointer;
-    transition: background-color 1s ease;
-    background: linear-gradient(#ff6600, #FF8635);
+    background: #ff6600 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border: solid 2px green !important;
+    height: 37px !important;
+    cursor: pointer !important;
+    transition: background-color 1s ease !important;
+    background: linear-gradient(#ff6600, #FF8635) !important;
 }
 
     .btn:hover {
